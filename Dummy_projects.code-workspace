@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "react-test-app"
+		},
+		{
+			"path": "sails-test-app"
+		},
+		{
+			"path": "weekend-menu"
+		},
+		{
+			"path": "next-test"
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+		"editor.fontSize": 12,
+		"editor.fontWeight": "200"
+		
+	}
+}
