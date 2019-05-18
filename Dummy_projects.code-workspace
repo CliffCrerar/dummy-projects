@@ -1,19 +1,42 @@
 {
 	"folders": [
 		{
+			"name":"Root",
+			"path":"."
+		},
+		{
+			"name":"React Test App",
 			"path": "react-test-app"
 		},
 		{
+			"name":"Sails.js test-app",
 			"path": "sails-test-app"
 		},
 		{
+			"name":"Weekend Menu",
 			"path": "weekend-menu"
 		},
 		{
+			"name":"Learn Next.js",
 			"path": "next-test"
+		},
+		{
+			"name":"__current",
+			"path":"next-test/6-fetching-data"
 		}
 	],
 	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"next-test":true,
+			"react-test-app":true,
+			"sails-test-app":true,
+			"weekend-menu":true
+		},
 		"editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
 		"editor.fontLigatures": true,
 		"editor.fontSize": 13,
@@ -31,7 +54,8 @@
 		"editor.defaultFormatter": "ph1p.zeit-co-vscode-schemas",
 		"editor.formatOnSave": true,
 		"html.format.enable": true,
-		"javascript.autoClosingTags": true
+		"javascript.autoClosingTags": true,
+		"prettier.singleQuote": true
 		
 	}
 }
