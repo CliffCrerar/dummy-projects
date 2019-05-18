@@ -16,9 +16,9 @@
 	"settings": {
 		"editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
 		"editor.fontLigatures": true,
-		"editor.fontSize": 12,
-		"editor.fontWeight": "200",
-		"workbench.iconTheme": "vsclassic-icon-theme",
+		"editor.fontSize": 13,
+		"editor.fontWeight": "300",
+		"workbench.iconTheme": "material-icon-theme",
 		"browser-preview.startUrl": "localhost:3000",
 		"prettier.bracketSpacing": true,
 		"prettier.jsxBracketSameLine": true,
@@ -29,7 +29,9 @@
 		"prettier.tabWidth": 2,
 		"editor.autoIndent": true,
 		"editor.defaultFormatter": "ph1p.zeit-co-vscode-schemas",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"html.format.enable": true,
+		"javascript.autoClosingTags": true
 		
 	}
 }
