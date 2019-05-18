@@ -21,8 +21,12 @@
 			"path": "next-test"
 		},
 		{
+			"name":"Testing Zeit Deploy",
+			"path":"zeit-deploy-test"
+		},
+		{
 			"name":"__current",
-			"path":"next-test/6-fetching-data"
+			"path":"next-test/8-deploying"
 		}
 	],
 	"settings": {
@@ -35,7 +39,8 @@
 			"next-test":true,
 			"react-test-app":true,
 			"sails-test-app":true,
-			"weekend-menu":true
+			"weekend-menu":true,
+			"zeit-deploy-test":true
 		},
 		"editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
 		"editor.fontLigatures": true,
@@ -55,7 +60,8 @@
 		"editor.formatOnSave": true,
 		"html.format.enable": true,
 		"javascript.autoClosingTags": true,
-		"prettier.singleQuote": true
+		"prettier.singleQuote": true,
+		"git.ignoreLimitWarning": true
 		
 	}
 }
