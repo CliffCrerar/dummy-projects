@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "type": "Directory",
+        "name": "/Users/cliffordcrerar/letsplay/_dummy_projects/zeit-deploy-test",
+        "parent_id": null,
+        "workspaceRoot": "/Users/cliffordcrerar/letsplay/_dummy_projects",
+        "workspacePath": "zeit-deploy-test",
+        "id": "u3eNYWn5Pyd17Cov"
+    }
+]
