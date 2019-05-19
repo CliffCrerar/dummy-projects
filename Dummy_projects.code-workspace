@@ -27,7 +27,8 @@
 		{
 			"name":"__current",
 			"path":"next-test/8-deploying"
-		}
+		},
+		
 	],
 	"settings": {
 		"files.exclude": {
@@ -47,21 +48,25 @@
 		"editor.fontSize": 13,
 		"editor.fontWeight": "300",
 		"workbench.iconTheme": "material-icon-theme",
-		"browser-preview.startUrl": "localhost:3000",
-		"prettier.bracketSpacing": true,
-		"prettier.jsxBracketSameLine": true,
-		"prettier.jsxSingleQuote": true,
-		"prettier.eslintIntegration": true,
-		"prettier.requireConfig": true,
-		"prettier.useTabs": true,
-		"prettier.tabWidth": 2,
-		"editor.autoIndent": true,
-		"editor.defaultFormatter": "ph1p.zeit-co-vscode-schemas",
-		"editor.formatOnSave": true,
-		"html.format.enable": true,
+		"eslint.nodePath": "zeit-deploy-test",
+		"editor.wordWrap": "on",
 		"javascript.autoClosingTags": true,
+		"javascript.format.enable": true,
+		"typescript.format.enable": false,
+		"workbench.editor.showTabs": true,
+		"emmet.triggerExpansionOnTab": true,
+		"eslint.autoFixOnSave": true,
+		"eslint.codeAction.showDocumentation": {
+			"enable": true
+		},
+		"eslint.enable": true,
+		"editor.formatOnSave": true,
+		"prettier.parser": "babylon",
+		"prettier.printWidth": 120,
 		"prettier.singleQuote": true,
-		"git.ignoreLimitWarning": true
-		
+		"prettier.tslintIntegration": false,
+		"editor.detectIndentation": true,
+		"prettier.useTabs": true,
+		"editor.tabCompletion": "on"
 	}
 }
