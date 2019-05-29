@@ -1,34 +1,41 @@
 {
 	"folders": [
 		{
-			"name":"Root",
-			"path":"."
+			"name": "Root",
+			"path": "."
 		},
 		{
-			"name":"React Test App",
+			"name": "React Test App",
 			"path": "react-test-app"
 		},
 		{
-			"name":"Sails.js test-app",
+			"name": "Sails.js test-app",
 			"path": "sails-test-app"
 		},
 		{
-			"name":"Weekend Menu",
+			"name": "Weekend Menu",
 			"path": "weekend-menu"
 		},
 		{
-			"name":"Learn Next.js",
+			"name": "Learn Next.js",
 			"path": "next-test"
 		},
 		{
-			"name":"Testing Zeit Deploy",
-			"path":"zeit-deploy-test"
+			"name": "Testing Zeit Deploy",
+			"path": "zeit-deploy-test"
 		},
 		{
-			"name":"__current",
-			"path":"next-test/8-deploying"
+			"name": "__current",
+			"path": "next-test/8-deploying"
 		},
-		
+		{
+			"name": "with-app-layout-app",
+			"path": "with-app-layout-app"
+		},
+		{
+			"name": "ng-resolver-demo",
+			"path": "ng-resolver-demo"
+		}
 	],
 	"settings": {
 		"files.exclude": {
@@ -37,11 +44,12 @@
 			"**/.hg": true,
 			"**/CVS": true,
 			"**/.DS_Store": true,
-			"next-test":true,
-			"react-test-app":true,
-			"sails-test-app":true,
-			"weekend-menu":true,
-			"zeit-deploy-test":true
+			"next-test": true,
+			"react-test-app": true,
+			"sails-test-app": true,
+			"weekend-menu": true,
+			"zeit-deploy-test": true,
+			"with-app-layout-app": true
 		},
 		"editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
 		"editor.fontLigatures": true,
@@ -67,6 +75,7 @@
 		"prettier.tslintIntegration": false,
 		"editor.detectIndentation": true,
 		"prettier.useTabs": true,
-		"editor.tabCompletion": "on"
+		"editor.tabCompletion": "on",
+		"git.ignoreLimitWarning": true
 	}
 }
