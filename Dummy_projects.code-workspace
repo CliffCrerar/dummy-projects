@@ -35,6 +35,10 @@
 		{
 			"name": "ng-resolver-demo",
 			"path": "ng-resolver-demo"
+		},
+		{
+			"name": "mongo-express",
+			"path": "./using_mongo_express"
 		}
 	],
 	"settings": {
@@ -55,27 +59,22 @@
 		"editor.fontLigatures": true,
 		"editor.fontSize": 13,
 		"editor.fontWeight": "300",
-		"workbench.iconTheme": "material-icon-theme",
-		"eslint.nodePath": "zeit-deploy-test",
 		"editor.wordWrap": "on",
 		"javascript.autoClosingTags": true,
 		"javascript.format.enable": true,
 		"typescript.format.enable": false,
 		"workbench.editor.showTabs": true,
 		"emmet.triggerExpansionOnTab": true,
-		"eslint.autoFixOnSave": true,
-		"eslint.codeAction.showDocumentation": {
-			"enable": true
-		},
-		"eslint.enable": true,
 		"editor.formatOnSave": true,
-		"prettier.parser": "babylon",
-		"prettier.printWidth": 120,
-		"prettier.singleQuote": true,
-		"prettier.tslintIntegration": false,
-		"editor.detectIndentation": true,
-		"prettier.useTabs": true,
 		"editor.tabCompletion": "on",
-		"git.ignoreLimitWarning": true
+		"git.ignoreLimitWarning": true,
+		"typescript.surveys.enabled": false,
+		"typescript.suggestionActions.enabled": false,
+		"typescript.suggest.enabled": false,
+		"typescript.suggest.paths": false,
+		"typescript.suggest.autoImports": true,
+		"typescript.referencesCodeLens.enabled": false,
+		"terminal.integrated.fontSize": 12,
+		"terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, Consolas"
 	}
 }
